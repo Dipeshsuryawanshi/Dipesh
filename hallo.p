@@ -6,3 +6,10 @@ if(FALSE) {
 
 myString <- "Hello, World!"
 print ( myString)
+print(seq(32,44))
+new.function <- function(a) {
+   for(i in 1:a) {
+      b <- i^2
+      print(b)
+   }
+}
